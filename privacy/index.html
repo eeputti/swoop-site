@@ -36,6 +36,10 @@ just as it does for Apple's Calendar and Reminders apps. swoop never sends calen
 <li><strong>Battery, network and clock.</strong> swoop reads these from macOS. For network speed it only reads how much
 data has moved through your connection. It doesn't look at what you send or receive and doesn't contact any
 server.</li>
+<li><strong>System.</strong> CPU, memory and disk use are read from macOS and shown in the notch.</li>
+<li><strong>Timers and the water reminder.</strong> They use macOS notifications, which macOS asks you to allow.</li>
+<li><strong>App shortcuts.</strong> You pick apps in the standard macOS window; swoop only remembers which apps you
+picked.</li>
 <li><strong>Settings.</strong> Your choices, such as widgets and colors, are saved in swoop's own settings on your
 Mac.</li>
 </ul>
@@ -52,6 +56,9 @@ downloads the cover image from Spotify;</li>
 These requests contain no account, name or other identifier from swoop. As with any internet request, the service
 can see your IP address. Spotify's and Apple's privacy policies apply to these requests. swoop keeps covers in memory
 only.</li>
+<li><strong>Website icons.</strong> For your quick links and the Claude and ChatGPT buttons, swoop downloads each
+website's icon from that website itself, as a browser does, and keeps it on your Mac for up to two weeks. No other
+icon service is used.</li>
 <li><strong>Links and the prompt box.</strong> A quick link opens in your browser or in the app it belongs to (such as
 Notion). When you send text from the Claude or ChatGPT box, swoop opens that website in your browser with your text,
 and from there that service's privacy policy applies. swoop doesn't save or send the text anywhere else.</li>
@@ -112,6 +119,11 @@ muistutustietoja minnekään. (Synkronoinnin iCloudiin, Googleen tai muille tile
 <li><strong>Akku, verkko ja kello.</strong> swoop lukee nämä macOS:ltä. Verkon nopeutta varten se lukee vain, paljonko
 dataa yhteyden kautta on kulkenut. Se ei katso, mitä lähetät tai vastaanotat, eikä ota yhteyttä mihinkään
 palvelimeen.</li>
+<li><strong>Järjestelmä.</strong> Suorittimen, muistin ja levyn käyttö luetaan macOS:ltä ja näytetään notchissa.</li>
+<li><strong>Ajastimet ja vesimuistutus.</strong> Ne käyttävät macOS:n ilmoituksia, joihin macOS kysyy sinulta
+luvan.</li>
+<li><strong>App-pikakuvakkeet.</strong> Valitset apit macOS:n tavallisessa ikkunassa; swoop muistaa vain, mitkä apit
+valitsit.</li>
 <li><strong>Asetukset.</strong> Valintasi, kuten widgetit ja värit, tallentuvat swoopin omiin asetuksiin
 Macillasi.</li>
 </ul>
@@ -128,6 +140,9 @@ ja lataa kansikuvan Spotifylta;</li>
 Pyynnöissä ei ole tiliä, nimeä eikä muuta swoopin tunnistetta. Kuten missä tahansa verkkopyynnössä, palvelu näkee
 IP-osoitteesi. Näihin pyyntöihin sovelletaan Spotifyn ja Applen tietosuojakäytäntöjä. swoop pitää kansikuvat vain
 muistissa.</li>
+<li><strong>Sivustojen kuvakkeet.</strong> Pikalinkeillesi sekä Clauden ja ChatGPT:n painikkeille swoop lataa kunkin
+sivuston kuvakkeen suoraan siltä sivustolta, kuten selain tekee, ja säilyttää sen Macillasi enintään kaksi viikkoa.
+Muuta kuvakepalvelua ei käytetä.</li>
 <li><strong>Linkit ja kehotekenttä.</strong> Pikalinkki aukeaa selaimessasi tai siinä apissa, johon se kuuluu
 (esimerkiksi Notionissa). Kun lähetät tekstiä Clauden tai ChatGPT:n kentästä, swoop avaa kyseisen sivuston
 selaimessasi tekstisi kanssa, ja siitä eteenpäin sovelletaan sen palvelun tietosuojakäytäntöä. swoop ei tallenna eikä
